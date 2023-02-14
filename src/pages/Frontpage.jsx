@@ -21,8 +21,8 @@ export function Frontpage() {
         onClick={()=> navigate('/German')} 
         />
          <Button 
-        children='Ejercicio Axios Sofia ' 
-        onClick={()=> navigate('/sofia')} 
+        children='Ejercicios Axios Sofia ' 
+        onClick={()=> navigate('/AxiosDogs')} 
         />
       </div>
     )

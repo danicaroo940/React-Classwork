@@ -3,7 +3,8 @@ import { Login } from './pages/Login';
 import { Register } from './pages/Register'
 import { Frontpage } from './pages/Frontpage'
 import { German } from './pages/German'
-import { Sofia } from './pages/AxiosDogs';
+import { AxiosDogs } from './pages/AxiosDogs';
+import { AxiosPokemon } from './pages/AxiosPokemon';
 
 
 //Aqui se importan las paginas
@@ -29,9 +30,15 @@ export function AppRoutes () {
                 path: '/german'
             },
             {
-                element: <Sofia/>,
-                path: '/sofia'
+                element: <AxiosDogs/>,
+                path: '/AxiosDogs'
+            },
+            {
+                element: <AxiosPokemon/>,
+                path: '/AxiosPokemon'
             }
+
+
         ]
     )
 }

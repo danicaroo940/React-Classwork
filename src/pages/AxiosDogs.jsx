@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { RandomDog } from "../components/RandomDog";
 import { Breeds } from "../components/Breeds";
 import { SearchDog } from "../components/SearchDog";
-export function Sofia () {
+export function AxiosDogs () {
     const navigate = useNavigate();
    
 
@@ -13,7 +13,7 @@ export function Sofia () {
             <Breeds />
             <RandomDog />
             <SearchDog />
-            <Button children='Ir al ejercicio de Pokemon' onClick={()=> navigate('/')}/>
+            <Button children='Ir al ejercicio de Pokemon' onClick={()=> navigate('/AxiosPokemon')}/>
             <Button children='Volver' onClick={()=> navigate('/')} />
         </div>
     )
