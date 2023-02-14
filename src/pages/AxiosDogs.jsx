@@ -9,10 +9,11 @@ export function Sofia () {
 
     return (
         <div>
-            <h1>Sofia</h1>
+            <h1>Ejercicio Axios DOGS React</h1>
             <Breeds />
             <RandomDog />
             <SearchDog />
+            <Button children='Ir al ejercicio de Pokemon' onClick={()=> navigate('/')}/>
             <Button children='Volver' onClick={()=> navigate('/')} />
         </div>
     )

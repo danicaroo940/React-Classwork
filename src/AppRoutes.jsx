@@ -3,7 +3,7 @@ import { Login } from './pages/Login';
 import { Register } from './pages/Register'
 import { Frontpage } from './pages/Frontpage'
 import { German } from './pages/German'
-import { Sofia } from './pages/Sofia';
+import { Sofia } from './pages/AxiosDogs';
 
 
 //Aqui se importan las paginas
