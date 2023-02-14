@@ -2,6 +2,7 @@ import { Button } from "../components/Button";
 import { useNavigate } from "react-router-dom";
 import { RandomDog } from "../components/RandomDog";
 import { Breeds } from "../components/Breeds";
+import { SearchDog } from "../components/SearchDog";
 export function Sofia () {
     const navigate = useNavigate();
    
@@ -11,6 +12,7 @@ export function Sofia () {
             <h1>Sofia</h1>
             <Breeds />
             <RandomDog />
+            <SearchDog />
             <Button children='Volver' onClick={()=> navigate('/')} />
         </div>
     )
