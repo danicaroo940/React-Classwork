@@ -1,4 +1,3 @@
-
 export function Input (props){
     const { type, onChange, name, placeholder, className } = props;
     return (
